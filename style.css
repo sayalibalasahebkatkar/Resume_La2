@@ -1,0 +1,240 @@
+
+#info{
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    font-size: 0.9em;
+    text-align: right;
+    width: 100%;
+    
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container{
+    position: relative;
+    width: 100%;
+    margin: 40px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+
+}
+.container .left_side{
+    position: relative;
+    background-color: black;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profileText .imgbox{
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+.profileText .imgbox .img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    
+}
+.profileText  h2{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.contactInformation{
+    padding-top: 30px;
+}
+.title{
+    color: skyblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.title2{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    /* color: rgb(0, 117, 138); */
+}
+.contactInformation ul{
+    position: relative;
+}
+.contactInformation ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.contactInformation ul li .icon{
+    display: inline-block;
+    color: #03a9f4;
+    font-size: 18px;
+    width: 30px;
+}
+.contactInformation ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+#website{
+    text-decoration-line: none;
+    color: #fff;
+    
+}
+#website:hover{
+    color: rgb(200, 210, 214);
+}
+#post{
+    color: #fff;
+    font-size:0.7em;
+    font-weight: 300;
+}
+.contactInformation.education li{
+    margin-bottom: 15px;
+}
+.contactInformation.education .h4{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInformation.education h4{
+    color: #fff;
+    font-weight: 100;
+}
+.contactInformation.education h3{
+    color: #fff;
+    font-weight: 500;
+}
+
+/* interest */
+.interest li{
+    list-style: none;
+    color: #fff;
+    margin:10px 0 ;
+    font-weight: 500;
+}
+/* Right_side */
+.container .right_side{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+/* project */
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+.about .box .project{
+    min-width: 150px;
+}
+.about .box .project h3{
+    text-transform: capitalize;
+    color: #848c84;
+    font-weight: 500;
+}
+.about .box .text h4{
+    color: #2a7da2;
+    font-size: 18px;
+
+}
+.about .box .text p{
+    font-size: 18px;
+}
+/* Technical skills */
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.skills .box h3{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skills .box .percent div{
+    position: absolute;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    background: #03a9f4;
+}
+
+/* co-curricular activities */
+.about .box1{
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    margin: 10px 0px;
+}
+.about .box1 .project{
+    min-width: 150px;
+}
+.about .box1 .project h3{
+    text-transform: capitalize;
+    color: #848c84;
+    font-weight: 500;
+}
+.about .box1 .text h4{
+    color: #2a7da2;
+    font-size: 18px;
+
+}
+.about .box1 .text p{
+    font-size: 18px;
+}
+
+.button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn{
+    background-color: rgb(117, 115, 115);
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0px 4px;
+    color: white;
+    margin: 10px;
+    margin-top: 20px;
+}
